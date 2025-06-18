@@ -23,6 +23,22 @@ public class HomeController : Controller
         return View();
     }
 
+    // Rota para a página com os botões
+    public IActionResult EscolhaCadastro()
+    {
+        return View();
+    }
+    // Rotas que os botões irão acessar
+    public IActionResult CadastroOng()
+    {
+        return View(); // View CadastroOng.cshtml
+    }
+
+    public IActionResult CadastroVoluntario()
+    {
+        return View(); // View CadastroVoluntario.cshtml
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

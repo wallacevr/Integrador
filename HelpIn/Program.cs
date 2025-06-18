@@ -20,10 +20,20 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
+// 👉 ROTA AMIGÁVEL
+app.MapControllerRoute(
+    name: "cadastroEscolha",
+    pattern: "cadastro",
+    defaults: new { controller = "Home", action = "EscolhaCadastro" });
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+app.MapControllerRoute(
+    name: "cadastroOng",
+    pattern: "cadastro-ong",
+    defaults: new { controller = "Ong", action = "Cadastro" });
 
 app.Run();

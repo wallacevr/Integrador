@@ -8,34 +8,74 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/HelpIn.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-+Tn4dr..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <style>
-        .banner {
-            background-color: #7c8292;
-            color: white;
-            padding: 60px 0;
-            text-align: center;
+    .hero-section {
+        position: relative;
+        width: 100%;
+        min-height: 85vh;
+        background-color: #0f172a;
+        background-image: url('/img/Banner1.png'); /* ajuste o caminho */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-section::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(circle, rgba(15,23,42,0) 50%, rgba(15,23,42,1) 100%);
+        z-index: 1;
+    }
+
+    .hero-section .content {
+        position: relative;
+        z-index: 2;
+        color: white;
+        max-width: 800px;
+        padding: 20px;
+    }
+
+    .hero-section h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .hero-section p {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: #e2e8f0;
+    }
+
+    .hero-section .btn {
+        margin-top: 1.5rem;
+        padding: 0.75rem 2rem;
+        font-size: 1rem;
+        border-radius: 50px;
+    }
+
+        header{
+        background-color: #0f172a !important;
         }
-        .banner h1 {
-            font-weight: bold;
-            color: black;
-        }
-        .card-img-placeholder {
-            background-color: #7c8292;
-            height: 180px;
-        }
-        .footer {
-            background-color: #d6d6d6;
-            padding: 40px 0;
-        }
+
     </style>
 </head>
 <body>
     <header>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
-                <a class="navbar-brand fw-bold" href="#">LOGO</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <a class="navbar-brand fw-bold" href="#">
+                        <img src="~/img/logo.png" alt="Logo" style="height: 40px;">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,7 +83,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Cadastro</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="EscolhaCadastro">Cadastro</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
@@ -53,37 +93,44 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container-fluid px-0 mx-0">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer">
+    <footer class="text-white py-5" style="background-color: #0f172a;">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 text-center mb-3 mb-md-0">
-                    <button class="btn btn-outline-dark rounded-pill px-5">LOGO</button>
+            <div class="row align-items-center text-center text-md-start">
+                
+                <!-- Logo -->
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <img src="~/img/logo.png" alt="Help In" style="max-height: 50px;">
+                    <p class="mt-2 mb-0 small">Porque ajudar é estar dentro da mudança.</p>
                 </div>
-                <div class="col-md-4 text-center mb-3 mb-md-0">
-                    <div class="d-flex justify-content-center gap-3">
-                        <a href="#"><i class="bi bi-facebook fs-4"></i></a>
-                        <a href="#"><i class="bi bi-linkedin fs-4"></i></a>
-                        <a href="#"><i class="bi bi-twitter fs-4"></i></a>
-                        <a href="#"><i class="bi bi-instagram fs-4"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-dark text-decoration-none">Sobre</a></li>
-                        <li><a href="#" class="text-dark text-decoration-none">FAQ</a></li>
-                        <li><a href="#" class="text-dark text-decoration-none">Contato</a></li>
+
+                <!-- Mapa do site -->
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-white text-decoration-none">Sobre</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Contato</a></li>
                     </ul>
                 </div>
+
+                <!-- Redes sociais -->
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-center justify-content-md-end gap-3">
+                        <a href="#" class="text-white fs-5"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white fs-5"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white fs-5"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </footer>
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
