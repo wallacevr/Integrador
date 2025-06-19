@@ -64,7 +64,16 @@
         header{
         background-color: #0f172a !important;
         }
+    select.select-role, select.select-role option {
+        background-color: rgba(20, 24, 35, 0.95); /* mesmo tom do card */
+        color: #fff;
+    }
 
+    select.select-role:focus {
+        border-color: #3b82f6;
+        background-color: rgba(20, 24, 35, 1);
+        outline: none;
+    }
     </style>
 </head>
 <body>
@@ -87,6 +96,7 @@
                         <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                        <li class="nav-item"><a asp-controller="Auth" asp-action="Login">Login</a></li>
                     </ul>
                     <a class="ms-3" href="#"><i class="bi bi-person"></i></a>
                 </div>

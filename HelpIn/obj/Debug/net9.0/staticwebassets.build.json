@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wqwy1p4Bvl1Wzz3Bxk8whidVyoN2giRYv3S5uWKF6rA=",
+  "Hash": "3Hbo11K783n52Lpdh9EdQiaHprCLWg+Z/sUSckVHwGw=",
   "Source": "HelpIn",
   "BasePath": "_content/HelpIn",
   "Mode": "Default",
@@ -2787,6 +2787,195 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\1c05b2ca-8580-444c-a16f-ee873e8f57f8.pdf",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "uploads/1c05b2ca-8580-444c-a16f-ee873e8f57f8#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dtxhhdw7nz",
+      "Integrity": "cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\1c05b2ca-8580-444c-a16f-ee873e8f57f8.pdf"
+    },
+    {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\412c7784-37cb-4993-b6eb-dd851e3a944c.pdf",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "uploads/412c7784-37cb-4993-b6eb-dd851e3a944c#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dtxhhdw7nz",
+      "Integrity": "cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\412c7784-37cb-4993-b6eb-dd851e3a944c.pdf"
+    },
+    {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\474743c9-fd0e-475e-90db-aefa3a50e8c2.png",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "uploads/474743c9-fd0e-475e-90db-aefa3a50e8c2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ds6lwt4ppc",
+      "Integrity": "Y7Z+ks4fXeaB/6zzFuO5l/PW61wnzsL5PHIIj446Pf0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\474743c9-fd0e-475e-90db-aefa3a50e8c2.png"
+    },
+    {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\742814c3-2d50-4c6a-9341-03b1fe585dd3.pdf",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "uploads/742814c3-2d50-4c6a-9341-03b1fe585dd3#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dtxhhdw7nz",
+      "Integrity": "cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\742814c3-2d50-4c6a-9341-03b1fe585dd3.pdf"
+    },
+    {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\bdc28ce4-961d-4ca6-a36d-00dc1d3bbb39.pdf",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "uploads/bdc28ce4-961d-4ca6-a36d-00dc1d3bbb39#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8ate9oisbv",
+      "Integrity": "QEua7eX3j6WSl6HKspWNrpWstcggpgGH6Pqr1F6ATBA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\bdc28ce4-961d-4ca6-a36d-00dc1d3bbb39.pdf"
+    },
+    {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\d5b05876-d383-450c-ae16-2f1561e32896.png",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "uploads/d5b05876-d383-450c-ae16-2f1561e32896#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ds6lwt4ppc",
+      "Integrity": "Y7Z+ks4fXeaB/6zzFuO5l/PW61wnzsL5PHIIj446Pf0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\d5b05876-d383-450c-ae16-2f1561e32896.png"
+    },
+    {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\dae01c6f-cee4-4cf1-ad65-6900d50f3a8e.pdf",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "uploads/dae01c6f-cee4-4cf1-ad65-6900d50f3a8e#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dtxhhdw7nz",
+      "Integrity": "cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\dae01c6f-cee4-4cf1-ad65-6900d50f3a8e.pdf"
+    },
+    {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\f428d6f9-f14a-4c99-8b4c-cbac50183a4a.pdf",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "uploads/f428d6f9-f14a-4c99-8b4c-cbac50183a4a#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8ate9oisbv",
+      "Integrity": "QEua7eX3j6WSl6HKspWNrpWstcggpgGH6Pqr1F6ATBA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\f428d6f9-f14a-4c99-8b4c-cbac50183a4a.pdf"
+    },
+    {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\fa768e8a-c98f-440c-9aef-07d00cfbf6fc.pdf",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "uploads/fa768e8a-c98f-440c-9aef-07d00cfbf6fc#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dtxhhdw7nz",
+      "Integrity": "cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\fa768e8a-c98f-440c-9aef-07d00cfbf6fc.pdf"
     }
   ],
   "Endpoints": [
@@ -3411,7 +3600,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 21:06:30 GMT"
+          "Value": "Wed, 18 Jun 2025 16:57:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3464,7 +3653,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 21:06:30 GMT"
+          "Value": "Wed, 18 Jun 2025 16:57:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3501,7 +3690,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 21:06:30 GMT"
+          "Value": "Wed, 18 Jun 2025 16:57:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3548,7 +3737,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 21:06:30 GMT"
+          "Value": "Wed, 18 Jun 2025 16:57:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3609,7 +3798,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 21:06:30 GMT"
+          "Value": "Wed, 18 Jun 2025 16:57:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3654,7 +3843,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 21:06:30 GMT"
+          "Value": "Wed, 18 Jun 2025 16:57:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3709,7 +3898,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 21:06:30 GMT"
+          "Value": "Wed, 18 Jun 2025 16:57:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3770,7 +3959,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 21:06:30 GMT"
+          "Value": "Wed, 18 Jun 2025 16:57:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3815,7 +4004,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 21:06:30 GMT"
+          "Value": "Wed, 18 Jun 2025 16:57:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3870,7 +4059,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 21:06:30 GMT"
+          "Value": "Wed, 18 Jun 2025 16:57:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3923,7 +4112,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 21:06:30 GMT"
+          "Value": "Wed, 18 Jun 2025 16:57:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3960,7 +4149,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 21:06:30 GMT"
+          "Value": "Wed, 18 Jun 2025 16:57:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22187,6 +22376,744 @@
         {
           "Name": "integrity",
           "Value": "sha256-JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1c05b2ca-8580-444c-a16f-ee873e8f57f8.dtxhhdw7nz.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\1c05b2ca-8580-444c-a16f-ee873e8f57f8.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 00:28:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dtxhhdw7nz"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/1c05b2ca-8580-444c-a16f-ee873e8f57f8.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1c05b2ca-8580-444c-a16f-ee873e8f57f8.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\1c05b2ca-8580-444c-a16f-ee873e8f57f8.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 00:28:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/412c7784-37cb-4993-b6eb-dd851e3a944c.dtxhhdw7nz.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\412c7784-37cb-4993-b6eb-dd851e3a944c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 00:15:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dtxhhdw7nz"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/412c7784-37cb-4993-b6eb-dd851e3a944c.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/412c7784-37cb-4993-b6eb-dd851e3a944c.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\412c7784-37cb-4993-b6eb-dd851e3a944c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 00:15:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/474743c9-fd0e-475e-90db-aefa3a50e8c2.ds6lwt4ppc.png",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\474743c9-fd0e-475e-90db-aefa3a50e8c2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1427193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y7Z+ks4fXeaB/6zzFuO5l/PW61wnzsL5PHIIj446Pf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 18:08:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ds6lwt4ppc"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/474743c9-fd0e-475e-90db-aefa3a50e8c2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y7Z+ks4fXeaB/6zzFuO5l/PW61wnzsL5PHIIj446Pf0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/474743c9-fd0e-475e-90db-aefa3a50e8c2.png",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\474743c9-fd0e-475e-90db-aefa3a50e8c2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1427193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y7Z+ks4fXeaB/6zzFuO5l/PW61wnzsL5PHIIj446Pf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 18:08:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y7Z+ks4fXeaB/6zzFuO5l/PW61wnzsL5PHIIj446Pf0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/742814c3-2d50-4c6a-9341-03b1fe585dd3.dtxhhdw7nz.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\742814c3-2d50-4c6a-9341-03b1fe585dd3.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 00:03:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dtxhhdw7nz"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/742814c3-2d50-4c6a-9341-03b1fe585dd3.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/742814c3-2d50-4c6a-9341-03b1fe585dd3.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\742814c3-2d50-4c6a-9341-03b1fe585dd3.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 00:03:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/bdc28ce4-961d-4ca6-a36d-00dc1d3bbb39.8ate9oisbv.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\bdc28ce4-961d-4ca6-a36d-00dc1d3bbb39.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QEua7eX3j6WSl6HKspWNrpWstcggpgGH6Pqr1F6ATBA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 23:39:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ate9oisbv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/bdc28ce4-961d-4ca6-a36d-00dc1d3bbb39.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QEua7eX3j6WSl6HKspWNrpWstcggpgGH6Pqr1F6ATBA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/bdc28ce4-961d-4ca6-a36d-00dc1d3bbb39.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\bdc28ce4-961d-4ca6-a36d-00dc1d3bbb39.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QEua7eX3j6WSl6HKspWNrpWstcggpgGH6Pqr1F6ATBA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 23:39:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QEua7eX3j6WSl6HKspWNrpWstcggpgGH6Pqr1F6ATBA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d5b05876-d383-450c-ae16-2f1561e32896.ds6lwt4ppc.png",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\d5b05876-d383-450c-ae16-2f1561e32896.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1427193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y7Z+ks4fXeaB/6zzFuO5l/PW61wnzsL5PHIIj446Pf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 20:11:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ds6lwt4ppc"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d5b05876-d383-450c-ae16-2f1561e32896.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y7Z+ks4fXeaB/6zzFuO5l/PW61wnzsL5PHIIj446Pf0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d5b05876-d383-450c-ae16-2f1561e32896.png",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\d5b05876-d383-450c-ae16-2f1561e32896.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1427193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y7Z+ks4fXeaB/6zzFuO5l/PW61wnzsL5PHIIj446Pf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 20:11:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y7Z+ks4fXeaB/6zzFuO5l/PW61wnzsL5PHIIj446Pf0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dae01c6f-cee4-4cf1-ad65-6900d50f3a8e.dtxhhdw7nz.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\dae01c6f-cee4-4cf1-ad65-6900d50f3a8e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 00:29:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dtxhhdw7nz"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/dae01c6f-cee4-4cf1-ad65-6900d50f3a8e.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dae01c6f-cee4-4cf1-ad65-6900d50f3a8e.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\dae01c6f-cee4-4cf1-ad65-6900d50f3a8e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 00:29:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f428d6f9-f14a-4c99-8b4c-cbac50183a4a.8ate9oisbv.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\f428d6f9-f14a-4c99-8b4c-cbac50183a4a.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QEua7eX3j6WSl6HKspWNrpWstcggpgGH6Pqr1F6ATBA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 22:20:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ate9oisbv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/f428d6f9-f14a-4c99-8b4c-cbac50183a4a.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QEua7eX3j6WSl6HKspWNrpWstcggpgGH6Pqr1F6ATBA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f428d6f9-f14a-4c99-8b4c-cbac50183a4a.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\f428d6f9-f14a-4c99-8b4c-cbac50183a4a.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QEua7eX3j6WSl6HKspWNrpWstcggpgGH6Pqr1F6ATBA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 22:20:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QEua7eX3j6WSl6HKspWNrpWstcggpgGH6Pqr1F6ATBA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/fa768e8a-c98f-440c-9aef-07d00cfbf6fc.dtxhhdw7nz.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\fa768e8a-c98f-440c-9aef-07d00cfbf6fc.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 20:34:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dtxhhdw7nz"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/fa768e8a-c98f-440c-9aef-07d00cfbf6fc.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/fa768e8a-c98f-440c-9aef-07d00cfbf6fc.pdf",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\fa768e8a-c98f-440c-9aef-07d00cfbf6fc.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 20:34:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpDP73dD+w/aQ+65nXIAnLSYuDMufc3LNgUJQXSNbI="
         }
       ]
     }

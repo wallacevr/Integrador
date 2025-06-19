@@ -269,6 +269,42 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\1c05b2ca-8580-444c-a16f-ee873e8f57f8.pdf",
+      "PackagePath": "staticwebassets\\uploads\\1c05b2ca-8580-444c-a16f-ee873e8f57f8.pdf"
+    },
+    {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\412c7784-37cb-4993-b6eb-dd851e3a944c.pdf",
+      "PackagePath": "staticwebassets\\uploads\\412c7784-37cb-4993-b6eb-dd851e3a944c.pdf"
+    },
+    {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\474743c9-fd0e-475e-90db-aefa3a50e8c2.png",
+      "PackagePath": "staticwebassets\\uploads\\474743c9-fd0e-475e-90db-aefa3a50e8c2.png"
+    },
+    {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\742814c3-2d50-4c6a-9341-03b1fe585dd3.pdf",
+      "PackagePath": "staticwebassets\\uploads\\742814c3-2d50-4c6a-9341-03b1fe585dd3.pdf"
+    },
+    {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\bdc28ce4-961d-4ca6-a36d-00dc1d3bbb39.pdf",
+      "PackagePath": "staticwebassets\\uploads\\bdc28ce4-961d-4ca6-a36d-00dc1d3bbb39.pdf"
+    },
+    {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\d5b05876-d383-450c-ae16-2f1561e32896.png",
+      "PackagePath": "staticwebassets\\uploads\\d5b05876-d383-450c-ae16-2f1561e32896.png"
+    },
+    {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\dae01c6f-cee4-4cf1-ad65-6900d50f3a8e.pdf",
+      "PackagePath": "staticwebassets\\uploads\\dae01c6f-cee4-4cf1-ad65-6900d50f3a8e.pdf"
+    },
+    {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\f428d6f9-f14a-4c99-8b4c-cbac50183a4a.pdf",
+      "PackagePath": "staticwebassets\\uploads\\f428d6f9-f14a-4c99-8b4c-cbac50183a4a.pdf"
+    },
+    {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\uploads\\fa768e8a-c98f-440c-9aef-07d00cfbf6fc.pdf",
+      "PackagePath": "staticwebassets\\uploads\\fa768e8a-c98f-440c-9aef-07d00cfbf6fc.pdf"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.HelpIn.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

@@ -1,0 +1,216 @@
+@model Voluntario
+
+@{
+    ViewData["Title"] = "Cadastro de Voluntário";
+}
+
+<style>
+    body {
+        background-color: #0b1220;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        color: #ffffff;
+    }
+
+    .card-dark {
+        background-color: rgba(20, 24, 35, 0.9);
+        border-radius: 16px;
+        padding: 32px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+    }
+
+    h2 {
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    label {
+        color: #e0e0e0;
+        font-weight: 500;
+    }
+
+    .form-control {
+        background-color: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: #ffffff;
+        border-radius: 10px;
+    }
+
+    .form-control::placeholder {
+        color: #888;
+    }
+
+    .form-control:focus {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-color: #3b82f6;
+        box-shadow: none;
+        color: #ffffff;
+    }
+
+    .btn-primary {
+        background-color: #3b82f6;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: 600;
+    }
+
+    .btn-primary:hover {
+        background-color: #2563eb;
+    }
+
+    .text-danger {
+        color: #f87171;
+        font-size: 0.9em;
+    }
+</style>
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card-dark w-100" style="max-width: 500px;">
+
+        <h2 class="text-center mb-4">Cadastro de Voluntário</h2>
+
+        @if (TempData["Mensagem"] != null)
+        {
+            <div class="alert alert-success text-center">
+                @TempData["Mensagem"]
+            </div>
+        }
+
+        <form asp-action="Cadastro" enctype="multipart/form-data" method="post" onsubmit="return validarCepAntesDeEnviar()">
+
+            <div class="mb-3">
+                <label>Nome</label>
+                <input asp-for="Nome" class="form-control" placeholder="Nome completo" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label>Email</label>
+                <input asp-for="Email" class="form-control" placeholder="email@exemplo.com" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label>Telefone</label>
+                <input asp-for="Telefone" class="form-control" placeholder="(99) 99999-9999" />
+            </div>
+
+            <div class="mb-3">
+                <label>Área de Atuação</label>
+                <input asp-for="InteresseAtuacao" class="form-control" placeholder="Ex.: Educação, Saúde..." />
+                <span asp-validation-for="InteresseAtuacao" class="text-danger"></span>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label>CEP</label>
+                    <input asp-for="Cep" id="cep" class="form-control" placeholder="00000-000" onblur="buscarCep()" />
+                    <span asp-validation-for="Cep" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label>Estado</label>
+                    <input asp-for="Estado" id="estado" class="form-control" placeholder="SP, RJ..." />
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label>Cidade</label>
+                <input asp-for="Cidade" id="cidade" class="form-control" placeholder="Cidade" />
+            </div>
+
+            <div class="mb-3">
+                <label>Bairro</label>
+                <input asp-for="Bairro" id="bairro" class="form-control" placeholder="Bairro" />
+            </div>
+
+            <div class="mb-3">
+                <label>Logradouro</label>
+                <input asp-for="Logradouro" id="logradouro" class="form-control" placeholder="Rua, Av., etc." />
+            </div>
+
+            <div class="mb-3">
+                <label>Currículo (opcional)</label>
+                <input asp-for="Curriculo" type="file" class="form-control" />
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label>Senha</label>
+                    <input asp-for="Senha" type="password" class="form-control" placeholder="Mín. 6 caracteres" />
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label>Confirmar Senha</label>
+                    <input asp-for="ConfirmarSenha" type="password" class="form-control" placeholder="Repita a senha" />
+                    <span asp-validation-for="ConfirmarSenha" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://unpkg.com/imask"></script>
+
+    <script>
+        let cepValido = false;
+
+        const cepInput = document.getElementById('cep');
+        const maskCep = IMask(cepInput, {
+            mask: '00000-000'
+        });
+
+        function buscarCep() {
+            const cep = cepInput.value.replace(/\D/g, '');
+
+            if (cep.length != 8) {
+                alert('CEP inválido!');
+                cepValido = false;
+                return;
+            }
+
+            fetch(`https://viacep.com.br/ws/${cep}/json/`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.erro) {
+                        alert('CEP não encontrado!');
+                        cepValido = false;
+                        limparCamposEndereco();
+                        return;
+                    }
+
+                    document.getElementById('logradouro').value = data.logradouro;
+                    document.getElementById('bairro').value = data.bairro;
+                    document.getElementById('cidade').value = data.localidade;
+                    document.getElementById('estado').value = data.uf;
+                    cepValido = true;
+                })
+                .catch(() => {
+                    alert('Erro ao buscar o CEP');
+                    cepValido = false;
+                });
+        }
+
+        function limparCamposEndereco() {
+            document.getElementById('logradouro').value = '';
+            document.getElementById('bairro').value = '';
+            document.getElementById('cidade').value = '';
+            document.getElementById('estado').value = '';
+        }
+
+        function validarCepAntesDeEnviar() {
+            if (!cepValido) {
+                alert('Por favor, informe um CEP válido antes de cadastrar.');
+                return false;
+            }
+            return true;
+        }
+    </script>
+}
