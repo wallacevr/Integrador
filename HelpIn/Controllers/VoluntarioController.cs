@@ -4,6 +4,7 @@ using HelpIn.Models; // caso você use uma pasta para as models (ajuste conforme
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+ using HelpIn.Services;
 [Route("voluntario")]
 public class VoluntarioController : Controller
 {
@@ -65,10 +66,105 @@ public class VoluntarioController : Controller
     }
 
     [Route("painel-voluntario")]
-   [Authorize(Roles = "Voluntário")]  // <-- Só acessa se estiver logado como ONG
+    [Authorize(Roles = "Voluntário")]  // <-- Só acessa se estiver logado como ONG
     public IActionResult PainelVoluntario()
     {
         return View();
     }
     
+   
+
+    [HttpGet("ongs-proximas")]
+    [Authorize(Roles = "Voluntário")]
+    public async Task<IActionResult> OngsProximas(int page = 1, int pageSize = 5)
+    {
+        Console.WriteLine(User.Identity.Name);
+        var voluntario = await _context.Voluntarios
+            .FirstOrDefaultAsync(v => v.Email == User.Identity.Name);
+        Console.WriteLine(voluntario);
+        if (voluntario == null || string.IsNullOrEmpty(voluntario.Cep))
+        {
+            TempData["MensagemErro"] = "CEP do voluntário não encontrado.";
+            return RedirectToAction("PainelVoluntario");
+        }
+
+        var geoService = new GeocodingService();
+        double volLat, volLon;
+
+        // Se não tiver lat/lon salvo ainda
+        if (voluntario.Latitude == null || voluntario.Longitude == null)
+        {
+            try
+            {
+                (volLat, volLon) = await geoService.GetCoordinatesByCep(voluntario.Cep);
+                voluntario.Latitude = volLat;
+                voluntario.Longitude = volLon;
+                _context.Voluntarios.Update(voluntario);
+                await _context.SaveChangesAsync();
+            }
+            catch
+            {
+                TempData["MensagemErro"] = "Não foi possível localizar seu CEP.";
+                return RedirectToAction("PainelVoluntario");
+            }
+        }
+        else
+        {
+            volLat = voluntario.Latitude.Value;
+            volLon = voluntario.Longitude.Value;
+        }
+
+        var ongs = await _context.Ongs.ToListAsync();
+        var listaOngs = new List<(Ong ong, double distanciaKm)>();
+
+        foreach (var ong in ongs)
+        {
+            if (ong.Latitude == null || ong.Longitude == null)
+            {
+                try
+                {
+                    (double lat, double lon) = await geoService.GetCoordinatesByCep(ong.cep);
+                    ong.Latitude = lat;
+                    ong.Longitude = lon;
+                    _context.Ongs.Update(ong);
+                    await _context.SaveChangesAsync();
+                }
+                catch
+                {
+                    continue; // Ignora ONG que não localizou CEP
+                }
+            }
+
+            double distancia = CalcularDistancia(volLat, volLon, ong.Latitude.Value, ong.Longitude.Value);
+            listaOngs.Add((ong, distancia));
+        }
+
+        var totalOngs = listaOngs.Count;
+        var resultadoPaginado = listaOngs
+            .OrderBy(x => x.distanciaKm)
+            .Skip((page - 1) * pageSize)
+            .Take(pageSize)
+            .ToList();
+
+        ViewBag.TotalPages = (int)Math.Ceiling(totalOngs / (double)pageSize);
+        ViewBag.CurrentPage = page;
+
+        return View(resultadoPaginado);
+    }
+
+    private double CalcularDistancia(double lat1, double lon1, double lat2, double lon2)
+    {
+        double R = 6371;
+        double dLat = (lat2 - lat1) * Math.PI / 180;
+        double dLon = (lon2 - lon1) * Math.PI / 180;
+
+        double a = Math.Sin(dLat / 2) * Math.Sin(dLat / 2) +
+                Math.Cos(lat1 * Math.PI / 180) * Math.Cos(lat2 * Math.PI / 180) *
+                Math.Sin(dLon / 2) * Math.Sin(dLon / 2);
+
+        double c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
+
+        return R * c;
+    }
+
 }

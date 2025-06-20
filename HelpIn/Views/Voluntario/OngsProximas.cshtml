@@ -1,0 +1,116 @@
+@model List<(HelpIn.Models.Ong ong, double distanciaKm)>
+@{
+    ViewData["Title"] = "ONGs Próximas";
+}
+
+<style>
+    body {
+        background-color: #0D1117;
+        color: #FFFFFF;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .ong-card {
+        background-color: #161B22;
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease;
+    }
+
+    .ong-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .ong-name {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+    .ong-distance {
+        font-size: 1rem;
+        color: #58A6FF;
+        margin-bottom: 4px;
+    }
+
+    .ong-cause {
+        font-size: 0.95rem;
+        color: #8B949E;
+        margin-bottom: 12px;
+    }
+
+    .btn-ver-mais {
+        background-color: #238636;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: background-color 0.2s ease;
+    }
+
+    .btn-ver-mais:hover {
+        background-color: #2EA043;
+    }
+
+    .pagination {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .pagination a {
+        color: #58A6FF;
+        margin: 0 8px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+ 
+    }
+</style>
+
+<div class="container">
+    <h2 class="text-white text-center">ONGs próximas</h2>
+
+    @foreach (var item in Model)
+    {
+        <div class="ong-card">
+            <div class="ong-name">@item.ong.Nome</div>
+            <div class="ong-distance">@item.distanciaKm.ToString("F1") km</div>
+            <div class="ong-cause">Causa: @item.ong.AreaAtuacao</div>
+            <a class="btn btn-primary" href="@Url.Action("Detalhes", "Ong", new { id = item.ong.Id })">Ver mais</a>
+        </div>
+    }
+
+    <div class="pagination">
+        Página @ViewBag.CurrentPage de @ViewBag.TotalPages
+        <br />
+
+        @if (ViewBag.CurrentPage > 1)
+        {
+            <a href="?page=@(ViewBag.CurrentPage - 1)">Anterior</a>
+        }
+        @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+        {
+            <a href="?page=@(ViewBag.CurrentPage + 1)">Próxima</a>
+        }
+    </div>
+</div>
+

@@ -28,7 +28,8 @@ public class Voluntario
 
     // Upload de currículo (opcional)
     public string? CurriculoUrl { get; set; }
-
+    public double? Latitude { get; set; }
+    public double? Longitude { get; set; }
     [NotMapped]
     public IFormFile Curriculo { get; set; }
 

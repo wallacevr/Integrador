@@ -46,7 +46,7 @@ public class AuthController : Controller
                 {
                     var claims = new List<Claim>
                     {
-                        new Claim(ClaimTypes.Name, user.Nome),
+                        new Claim(ClaimTypes.Name, user.Email),
                         new Claim(ClaimTypes.Role, "Voluntário"),  // Corrigido o nome da Role
                     };
 

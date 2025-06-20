@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 namespace HelpIn;
-
+using HelpIn.Models;
 public class ApplicationDbContext : DbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
