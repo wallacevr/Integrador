@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+namespace HelpIn.Models;
 [Index(nameof(Email), IsUnique = true)]
 public class Voluntario
 {
