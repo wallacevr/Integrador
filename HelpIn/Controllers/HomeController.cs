@@ -17,7 +17,16 @@ public class HomeController : Controller
     {
         return View();
     }
-
+    [HttpGet("faq")]
+    public IActionResult Faq()
+    {
+        return View();
+    }
+    [HttpGet("sobre")]
+    public IActionResult Sobre()
+    {
+        return View();
+    }
     public IActionResult Privacy()
     {
         return View();

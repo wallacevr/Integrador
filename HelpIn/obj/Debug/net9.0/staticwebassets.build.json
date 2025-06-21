@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3Hbo11K783n52Lpdh9EdQiaHprCLWg+Z/sUSckVHwGw=",
+  "Hash": "0C422nqBucegK4Ji5AGO8DgU8idWpk9WQX+sb6yBvbM=",
   "Source": "HelpIn",
   "BasePath": "_content/HelpIn",
   "Mode": "Default",
@@ -1506,6 +1506,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logo2.png"
+    },
+    {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-missao.jpg",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "img/sobre-missao#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cvadmvkxvr",
+      "Integrity": "SKoFqhkz+19V3Ol63JkaaDRtlu/MoOVjEfzF16rhGhw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\sobre-missao.jpg"
     },
     {
       "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\js\\site.js",
@@ -4414,6 +4435,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-XsgmmvFCQ9nONu8H0lVCSHYtlPg/vDLbzsPbs07FcvQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/sobre-missao.cvadmvkxvr.jpg",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-missao.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SKoFqhkz+19V3Ol63JkaaDRtlu/MoOVjEfzF16rhGhw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 00:34:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cvadmvkxvr"
+        },
+        {
+          "Name": "label",
+          "Value": "img/sobre-missao.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SKoFqhkz+19V3Ol63JkaaDRtlu/MoOVjEfzF16rhGhw="
+        }
+      ]
+    },
+    {
+      "Route": "img/sobre-missao.jpg",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-missao.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SKoFqhkz+19V3Ol63JkaaDRtlu/MoOVjEfzF16rhGhw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 00:34:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SKoFqhkz+19V3Ol63JkaaDRtlu/MoOVjEfzF16rhGhw="
         }
       ]
     },

@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "Sobre a HelpIn";
+}
+
+<style>
+    body {
+        background-color: #0D1117;
+        color: #FFFFFF;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        animation: fadeIn 1s ease-in;
+    }
+
+ 
+
+    h1 {
+        text-align: center;
+        font-size: 2.8rem;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    .section {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+    }
+
+    .section-text {
+        flex: 1 1 300px;
+    }
+
+    .section-text h2 {
+        color: #58A6FF;
+        margin-bottom: 12px;
+        font-size: 1.8rem;
+    }
+
+    .section-text p {
+        color: #C9D1D9;
+        line-height: 1.7;
+        margin-bottom: 10px;
+    }
+
+    .section-image {
+        flex: 1 1 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-image img {
+        max-width: 70%;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .highlight {
+        color: #58A6FF;
+        font-weight: bold;
+    }
+
+   
+</style>
+
+<div class="container">
+    <h1>Sobre a HelpIn</h1>
+
+    <div class="section">
+        <div class="section-text">
+            <h2>Nossa Missão</h2>
+            <p>A <span class="highlight">HelpIn</span> nasceu com o propósito de conectar pessoas dispostas a fazer a diferença com ONGs que precisam de ajuda. Nossa missão é promover o engajamento social através da tecnologia.</p>
+        </div>
+        <div class="section-image">
+            <img src="/img/sobre-missao.jpg" alt="Nossa missão HelpIn">
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-image">
+            <img src="/img/sobre-como-funciona.jpg" alt="Como funciona HelpIn">
+        </div>
+        <div class="section-text">
+            <h2>Como Funciona</h2>
+            <p>A plataforma permite que voluntários encontrem ONGs próximas, filtrem por área de interesse e entrem em contato com facilidade. As ONGs podem divulgar projetos, cadastrar oportunidades e encontrar novos voluntários.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-text">
+            <h2>Por que a HelpIn?</h2>
+            <p>O nome <span class="highlight">HelpIn</span> reflete nosso propósito: <em>“ajudar de dentro para fora”</em>. Acreditamos que toda mudança social começa com uma atitude individual. Nossa plataforma é a ponte para essa transformação.</p>
+        </div>
+        <div class="section-image">
+            <img src="/img/sobre-por-que.jpg" alt="Por que a HelpIn?">
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-image">
+            <img src="/img/sobre-junte-se.jpg" alt="Junte-se à HelpIn">
+        </div>
+        <div class="section-text">
+            <h2>Junte-se a nós!</h2>
+            <p>Seja você uma ONG ou um voluntário, a <span class="highlight">HelpIn</span> está pronta para ajudar você a fazer a diferença. Faça parte da mudança hoje mesmo!</p>
+        </div>
+    </div>
+</div>

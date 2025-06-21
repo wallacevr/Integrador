@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\img\\logo2.png"
     },
     {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-missao.jpg",
+      "PackagePath": "staticwebassets\\img\\sobre-missao.jpg"
+    },
+    {
       "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
