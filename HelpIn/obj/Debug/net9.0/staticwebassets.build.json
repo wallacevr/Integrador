@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0C422nqBucegK4Ji5AGO8DgU8idWpk9WQX+sb6yBvbM=",
+  "Hash": "QQn50ThvToJN393Fg6InBZvXnqJfZA0qIY3eaD/3jus=",
   "Source": "HelpIn",
   "BasePath": "_content/HelpIn",
   "Mode": "Default",
@@ -1508,6 +1508,48 @@
       "OriginalItemSpec": "wwwroot\\img\\logo2.png"
     },
     {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-como-funciona.jpg",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "img/sobre-como-funciona#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7thbpsn5va",
+      "Integrity": "64f7EE6Fj3hLtvS00nEQlzkc1W+Nc019aZeHI7ljHuU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\sobre-como-funciona.jpg"
+    },
+    {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-junte-se.jpg",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "img/sobre-junte-se#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mnx1yiu5it",
+      "Integrity": "omopIBSVHSRx4nxX2a+g4OJdqdMm3XuzaNLN7tdEIlo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\sobre-junte-se.jpg"
+    },
+    {
       "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-missao.jpg",
       "SourceId": "HelpIn",
       "SourceType": "Discovered",
@@ -1527,6 +1569,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\sobre-missao.jpg"
+    },
+    {
+      "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-por-que.jpg",
+      "SourceId": "HelpIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\",
+      "BasePath": "_content/HelpIn",
+      "RelativePath": "img/sobre-por-que#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ps2cen2kb4",
+      "Integrity": "KUPapM6NqBIBBOGqXBzb8bKvBx9QRRdrb8pmYP77YQs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\sobre-por-que.jpg"
     },
     {
       "Identity": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\js\\site.js",
@@ -4439,6 +4502,170 @@
       ]
     },
     {
+      "Route": "img/sobre-como-funciona.7thbpsn5va.jpg",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-como-funciona.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"64f7EE6Fj3hLtvS00nEQlzkc1W+Nc019aZeHI7ljHuU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 00:41:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7thbpsn5va"
+        },
+        {
+          "Name": "label",
+          "Value": "img/sobre-como-funciona.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-64f7EE6Fj3hLtvS00nEQlzkc1W+Nc019aZeHI7ljHuU="
+        }
+      ]
+    },
+    {
+      "Route": "img/sobre-como-funciona.jpg",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-como-funciona.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"64f7EE6Fj3hLtvS00nEQlzkc1W+Nc019aZeHI7ljHuU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 00:41:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-64f7EE6Fj3hLtvS00nEQlzkc1W+Nc019aZeHI7ljHuU="
+        }
+      ]
+    },
+    {
+      "Route": "img/sobre-junte-se.jpg",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-junte-se.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36730"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"omopIBSVHSRx4nxX2a+g4OJdqdMm3XuzaNLN7tdEIlo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 00:45:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-omopIBSVHSRx4nxX2a+g4OJdqdMm3XuzaNLN7tdEIlo="
+        }
+      ]
+    },
+    {
+      "Route": "img/sobre-junte-se.mnx1yiu5it.jpg",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-junte-se.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36730"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"omopIBSVHSRx4nxX2a+g4OJdqdMm3XuzaNLN7tdEIlo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 00:45:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mnx1yiu5it"
+        },
+        {
+          "Name": "label",
+          "Value": "img/sobre-junte-se.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-omopIBSVHSRx4nxX2a+g4OJdqdMm3XuzaNLN7tdEIlo="
+        }
+      ]
+    },
+    {
       "Route": "img/sobre-missao.cvadmvkxvr.jpg",
       "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-missao.jpg",
       "Selectors": [],
@@ -4517,6 +4744,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-SKoFqhkz+19V3Ol63JkaaDRtlu/MoOVjEfzF16rhGhw="
+        }
+      ]
+    },
+    {
+      "Route": "img/sobre-por-que.jpg",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-por-que.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KUPapM6NqBIBBOGqXBzb8bKvBx9QRRdrb8pmYP77YQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 00:43:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KUPapM6NqBIBBOGqXBzb8bKvBx9QRRdrb8pmYP77YQs="
+        }
+      ]
+    },
+    {
+      "Route": "img/sobre-por-que.ps2cen2kb4.jpg",
+      "AssetFile": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-por-que.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KUPapM6NqBIBBOGqXBzb8bKvBx9QRRdrb8pmYP77YQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 00:43:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ps2cen2kb4"
+        },
+        {
+          "Name": "label",
+          "Value": "img/sobre-por-que.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KUPapM6NqBIBBOGqXBzb8bKvBx9QRRdrb8pmYP77YQs="
         }
       ]
     },

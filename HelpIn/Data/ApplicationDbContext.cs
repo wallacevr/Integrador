@@ -9,6 +9,7 @@ public class ApplicationDbContext : DbContext
     public DbSet<Ong> Ongs { get; set; } // Ong é sua model
 
     public DbSet<Voluntario> Voluntarios { get; set; }
+    public DbSet<Vaga> Vagas { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -1,0 +1,30 @@
+@model List<HelpIn.Models.Vaga>
+
+<h2>Minhas Vagas</h2>
+
+<a class="btn btn-success mb-3" href="@Url.Action("Create", "Vaga")">Criar Nova Vaga</a>
+
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Área</th>
+            <th>Data</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vaga in Model)
+        {
+            <tr>
+                <td>@vaga.Titulo</td>
+                <td>@vaga.AreaAtuacao</td>
+                <td>@vaga.DataCriacao.ToShortDateString()</td>
+                <td>
+                    <a class="btn btn-warning btn-sm" href="@Url.Action("Edit", "Vaga", new { id = vaga.Id })">Editar</a>
+                    <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", "Vaga", new { id = vaga.Id })">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

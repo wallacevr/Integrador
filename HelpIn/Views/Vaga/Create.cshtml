@@ -1,0 +1,48 @@
+@model HelpIn.Models.Vaga
+
+@{
+    ViewData["Title"] = "Criar Nova Vaga";
+}
+
+<h2>Criar Nova Vaga</h2>
+
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger">@TempData["MensagemErro"]</div>
+}
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <div>@error.ErrorMessage</div>
+        }
+    </div>
+}
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="Titulo" class="form-label"></label>
+        <input asp-for="Titulo" class="form-control" />
+        <span asp-validation-for="Titulo" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="AreaAtuacao" class="form-label"></label>
+        <input asp-for="AreaAtuacao" class="form-control" />
+        <span asp-validation-for="AreaAtuacao" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Descricao" class="form-label"></label>
+        <textarea asp-for="Descricao" class="form-control" rows="5"></textarea>
+        <span asp-validation-for="Descricao" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Salvar Vaga</button>
+    <a href="@Url.Action("Index", "Vaga")" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

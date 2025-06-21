@@ -25,8 +25,20 @@
       "PackagePath": "staticwebassets\\img\\logo2.png"
     },
     {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-como-funciona.jpg",
+      "PackagePath": "staticwebassets\\img\\sobre-como-funciona.jpg"
+    },
+    {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-junte-se.jpg",
+      "PackagePath": "staticwebassets\\img\\sobre-junte-se.jpg"
+    },
+    {
       "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-missao.jpg",
       "PackagePath": "staticwebassets\\img\\sobre-missao.jpg"
+    },
+    {
+      "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\img\\sobre-por-que.jpg",
+      "PackagePath": "staticwebassets\\img\\sobre-por-que.jpg"
     },
     {
       "Id": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\wwwroot\\js\\site.js",
