@@ -117,3 +117,103 @@ body{
 header{
    background-color: #0f172a !important;
 }
+
+   .stats-banner {
+        background: linear-gradient(90deg, #1e1e40, #5b2bc1);
+        color: white;
+        padding: 40px 20px;
+        border-radius: 50px;
+        margin: 60px auto;
+        max-width: 900px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        text-align: center;
+        margin-top: -60px; /* <--- isso sobe o bloco */
+         z-index: 10;
+        position: relative;
+    }
+
+    .stats-banner .stat h3 {
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+
+    .stats-banner .stat span {
+        font-size: 1rem;
+        color: #e0e0e0;
+    }
+    select.form-select option {
+        background-color: #0f172a !important;
+        color: #ffffff;
+    }
+
+    @media (max-width: 768px) {
+    .stats-banner {
+        flex-direction: row;          /* MANTÉM em linha */
+        flex-wrap: wrap;              /* Permite quebrar se necessário */
+        padding: 25px 10px;
+        gap: 20px;
+        border-radius: 30px;
+    }
+
+    .stats-banner .stat h3 {
+        font-size: 1.5rem;            /* Reduz número */
+    }
+
+    .stats-banner .stat span {
+        font-size: 0.8rem;            /* Reduz texto */
+    }
+}
+.section-highlight {
+  background-color: #04101c !important; /* Azul escuro da imagem */
+  border: 2px solid #ffffff20; /* Borda clara com transparência */
+  border-radius: 16px;
+  padding: 2rem;
+  color: #fff;
+}
+
+.section-highlight .section-image img {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.section-highlight .cta-button {
+  background-color: #ffd166;
+  color: #0f1b2d;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.section-highlight .cta-button:hover {
+  background-color: #ffb347;
+}
+.vol-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+}
+.vol-info {
+    flex-grow: 1;
+}
+

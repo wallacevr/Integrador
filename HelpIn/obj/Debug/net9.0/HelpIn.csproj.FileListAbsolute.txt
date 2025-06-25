@@ -91,9 +91,7 @@ C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\ob
 C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\scopedcss\bundle\HelpIn.styles.css
 C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\scopedcss\projectbundle\HelpIn.bundle.scp.css
-C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\compressed\qxvq1kz2le-miahy05phj.gz
 C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\compressed\jerwt3a2md-61n19gt1b8.gz
-C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\compressed\01kx474fbg-xtxxf3hu2r.gz
 C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\compressed\74w37kz5n2-bqjiyaj88i.gz
 C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\compressed\lwnjvo1ra5-c2jlpeoesf.gz
 C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\compressed\5fm408hytv-erw9l3u2r3.gz
@@ -170,3 +168,5 @@ C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\ob
 C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\HelpIn.pdb
 C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\HelpIn.genruntimeconfig.cache
 C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\ref\HelpIn.dll
+c:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\compressed\01kx474fbg-d0xgafla22.gz
+c:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\compressed\qxvq1kz2le-8q1kujo3f1.gz

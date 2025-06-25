@@ -1,30 +1,168 @@
 @model List<HelpIn.Models.Vaga>
 
-<h2>Minhas Vagas</h2>
+@{
+    ViewData["Title"] = "Minhas Vagas";
+}
 
-<a class="btn btn-success mb-3" href="@Url.Action("Create", "Vaga")">Criar Nova Vaga</a>
+<style>
+    body {
+        background-color: #0D1117;
+        color: #FFFFFF;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
-<table class="table table-dark table-striped">
-    <thead>
-        <tr>
-            <th>Título</th>
-            <th>Área</th>
-            <th>Data</th>
-            <th>Ações</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var vaga in Model)
-        {
-            <tr>
-                <td>@vaga.Titulo</td>
-                <td>@vaga.AreaAtuacao</td>
-                <td>@vaga.DataCriacao.ToShortDateString()</td>
-                <td>
-                    <a class="btn btn-warning btn-sm" href="@Url.Action("Edit", "Vaga", new { id = vaga.Id })">Editar</a>
-                    <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", "Vaga", new { id = vaga.Id })">Excluir</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+    .container-vagas {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 20px;
+    }
+
+    .titulo-painel {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #58A6FF;
+    }
+
+    .btn-criar {
+        display: inline-block;
+        background-color: #238636;
+        color: white;
+        padding: 12px 20px;
+        border-radius: 8px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background 0.3s ease;
+        margin-bottom: 30px;
+    }
+
+    .btn-criar:hover {
+        background-color: #2EA043;
+    }
+
+    .vaga-card {
+        background-color: #161B22;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        transition: transform 0.2s ease;
+    }
+
+    .vaga-card:hover {
+        transform: translateY(-3px);
+    }
+
+    .vaga-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .vaga-titulo {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #FFF;
+    }
+
+    .vaga-area {
+        color: #8B949E;
+        font-size: 0.95rem;
+    }
+
+    .vaga-data {
+        color: #58A6FF;
+        font-size: 0.85rem;
+        margin-top: 4px;
+    }
+
+    .vaga-actions {
+        margin-top: 15px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn-edit, .btn-delete {
+        padding: 8px 14px;
+        border-radius: 6px;
+        font-weight: 500;
+        text-decoration: none;
+        color: white;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: background-color 0.2s ease;
+    }
+
+    .btn-edit {
+        background-color: #FFD33D;
+        color: #161B22;
+    }
+
+    .btn-edit:hover {
+        background-color: #FFEA7F;
+    }
+
+    .btn-delete {
+        background-color: #DA3633;
+    }
+
+    .btn-delete:hover {
+        background-color: #F85149;
+    }
+
+    .vaga-icon {
+        width: 18px;
+        height: 18px;
+    }
+    .btn-show {
+        padding: 8px 14px;
+        border-radius: 6px;
+        font-weight: 500;
+        text-decoration: none;
+        color: white;
+        background-color: #3B82F6; /* Azul suave */
+        transition: background-color 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .btn-show:hover {
+        background-color: #60A5FA;
+    }
+
+</style>
+
+<div class="container-vagas">
+    <h2 class="titulo-painel">Minhas Vagas</h2>
+
+    <a class="btn-criar" href="@Url.Action("Create", "Vaga")">➕ Criar Nova Vaga</a>
+
+    @foreach (var vaga in Model)
+    {
+        <div class="vaga-card">
+            <div class="vaga-header">
+                <div>
+                    <div class="vaga-titulo">@vaga.Titulo</div>
+                    <div class="vaga-area">@vaga.AreaAtuacao</div>
+                    <div class="vaga-data">Criada em: @vaga.DataCriacao.ToShortDateString()</div>
+                </div>
+            </div>
+
+            <div class="vaga-actions">
+                <a class="btn-edit" href="@Url.Action("Edit", "Vaga", new { id = vaga.Id })">
+                    ✏️ Editar
+                </a>
+                <a class="btn-delete" href="@Url.Action("Delete", "Vaga", new { id = vaga.Id })">
+                    🗑️ Excluir
+                </a>
+                <a class="btn-show" href="@Url.Action("Show", "Vaga", new { id = vaga.Id })">
+                    👁️ Mostrar
+                </a>
+            </div>
+        </div>
+    }
+</div>

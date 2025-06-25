@@ -74,6 +74,9 @@
         background-color: rgba(20, 24, 35, 1);
         outline: none;
     }
+    .nav-link {
+        color: #0d6efd; /* azul padrão do Bootstrap 5 */
+    }
     </style>
 </head>
 <body>
@@ -91,12 +94,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="index">Home</a></li>
                         <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="EscolhaCadastro">Cadastro</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
-                        <li class="nav-item"><a asp-controller="Auth" asp-action="Login">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="faq">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Auth" asp-action="Login" >Login</a></li>
                     </ul>
                     <a class="ms-3" href="#"><i class="bi bi-person"></i></a>
                 </div>
@@ -122,9 +124,10 @@
                 <!-- Mapa do site -->
                 <div class="col-md-4 mb-3 mb-md-0">
                     <ul class="list-unstyled mb-0">
-                        <li><a href="#" class="text-white text-decoration-none">Sobre</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">FAQ</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Contato</a></li>
+                        <li><a asp-controller="Home" asp-action="index" class="text-white text-decoration-none">Home</a></li>
+                        <li><a asp-controller="Home" asp-action="sobre" class="text-white text-decoration-none">Sobre</a></li>
+                        <li><a asp-controller="Home" asp-action="faq" class="text-white text-decoration-none">FAQ</a></li>
+                        <li><a asp-controller="Home" asp-action="nossoimpacto" class="text-white text-decoration-none">Nosso Impacto</a></li>
                     </ul>
                 </div>
 

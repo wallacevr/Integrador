@@ -61,6 +61,14 @@ namespace HelpIn.Controllers
             return View(vaga);
         }
 
+       // GET: Exibir
+        [HttpGet("visualizar/{id}")]
+        public async Task<IActionResult> show(int id)
+        {
+            var vaga = await _context.Vagas.FindAsync(id);
+            if (vaga == null) return NotFound();
+            return View(vaga);
+        }
         // GET: Editar
         [HttpGet("editar/{id}")]
         public async Task<IActionResult> Edit(int id)
@@ -78,6 +86,13 @@ namespace HelpIn.Controllers
 
             if (ModelState.IsValid)
             {
+
+                var vagaExistente = await _context.Vagas.AsNoTracking().FirstOrDefaultAsync(v => v.Id == id);
+                if (vagaExistente == null) return NotFound();
+
+                // Mantém o OngId original
+                vaga.OngId = vagaExistente.OngId;
+                vaga.DataCriacao = vagaExistente.DataCriacao; // Opcional: preservar data original       
                 _context.Update(vaga);
                 await _context.SaveChangesAsync();
                 TempData["MensagemSucesso"] = "Vaga atualizada!";

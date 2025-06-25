@@ -1,0 +1,11 @@
+@model HelpIn.Models.Vaga
+
+<h2>Excluir Vaga</h2>
+
+<p>Tem certeza que deseja excluir a vaga: <strong>@Model.Titulo</strong>?</p>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Confirmar Exclusão</button>
+    <a class="btn btn-secondary" href="@Url.Action("Index", "Vaga")">Cancelar</a>
+</form>

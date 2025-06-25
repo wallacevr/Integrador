@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/walla/OneDrive/Documentos/FATEC/DesenvolvimentoWEB/Integrador/HelpIn/Views/Home/EmConstrucao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbUNvbnN0cnVjYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/walla/OneDrive/Documentos/FATEC/DesenvolvimentoWEB/Integrador/HelpIn/Views/Home/EscolhaCadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFc2NvbGhhQ2FkYXN0cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,8 +36,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGYXEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/walla/OneDrive/Documentos/FATEC/DesenvolvimentoWEB/Integrador/HelpIn/Views/Home/Funcionalidades.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGdW5jaW9uYWxpZGFkZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/walla/OneDrive/Documentos/FATEC/DesenvolvimentoWEB/Integrador/HelpIn/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/walla/OneDrive/Documentos/FATEC/DesenvolvimentoWEB/Integrador/HelpIn/Views/Home/NossoImpacto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb3Nzb0ltcGFjdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/walla/OneDrive/Documentos/FATEC/DesenvolvimentoWEB/Integrador/HelpIn/Views/Home/PainelONG.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWluZWxPTkcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/walla/OneDrive/Documentos/FATEC/DesenvolvimentoWEB/Integrador/HelpIn/Views/Home/Privacy.cshtml]
@@ -68,8 +84,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/walla/OneDrive/Documentos/FATEC/DesenvolvimentoWEB/Integrador/HelpIn/Views/Vaga/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/walla/OneDrive/Documentos/FATEC/DesenvolvimentoWEB/Integrador/HelpIn/Views/Vaga/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/walla/OneDrive/Documentos/FATEC/DesenvolvimentoWEB/Integrador/HelpIn/Views/Vaga/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/walla/OneDrive/Documentos/FATEC/DesenvolvimentoWEB/Integrador/HelpIn/Views/Vaga/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYVxTaG93LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/walla/OneDrive/Documentos/FATEC/DesenvolvimentoWEB/Integrador/HelpIn/Views/Voluntario/Cadastro.cshtml]

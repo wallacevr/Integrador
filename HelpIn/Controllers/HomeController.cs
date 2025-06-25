@@ -12,13 +12,28 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
+    
     public IActionResult Index()
     {
         return View();
     }
     [HttpGet("faq")]
     public IActionResult Faq()
+    {
+        return View();
+    }
+      [HttpGet("funcionalidades")]
+    public IActionResult Funcionalidades()
+    {
+        return View();
+    }
+    [HttpGet("nossoimpacto")]
+    public IActionResult NossoImpacto()
+    {
+        return View();
+    }
+    
+    public IActionResult EmConstrucao()
     {
         return View();
     }

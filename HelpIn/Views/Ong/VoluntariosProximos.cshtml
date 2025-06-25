@@ -84,15 +84,40 @@
 </style>
 
 <div class="container">
+    @functions {
+        private static readonly string[] AvatarColors = new[] {
+            "#FF6B6B", "#F3A712", "#3DB2FF", "#6BCB77", "#FFC93C", "#DA77F2", "#FF9F1C", "#A3A1FB", "#43AA8B", "#F72585"
+        };
+
+        private string GetColorFor(string nome)
+        {
+            int hash = nome.GetHashCode();
+            int index = Math.Abs(hash % AvatarColors.Length);
+            return AvatarColors[index];
+        }
+    }
+
     <h2>Voluntários Próximos</h2>
 
-    @foreach (var item in Model)
+   @foreach (var item in Model)
     {
+        var avatarColor = GetColorFor(item.voluntario.Nome);
+        var iniciais = string.Join("", item.voluntario.Nome
+            .Split(" ")
+            .Where(w => !string.IsNullOrWhiteSpace(w))
+            .Take(2)
+            .Select(w => w[0])).ToUpper();
+
         <div class="vol-card">
-            <div class="vol-name">@item.voluntario.Nome</div>
-            <div class="vol-distance">@item.distanciaKm.ToString("F1") km</div>
-            <div class="vol-interest">Interesse: @item.voluntario.InteresseAtuacao</div>
-            <a class="btn-ver-mais" href="@Url.Action("Detalhes", "Voluntario", new { id = item.voluntario.Id })">Ver mais</a>
+            <div class="avatar" style="background-color:@avatarColor">
+                @iniciais
+            </div>
+            <div class="vol-info">
+                <div class="vol-name">@item.voluntario.Nome</div>
+                <div class="vol-distance">@item.distanciaKm.ToString("F1") km</div>
+                <div class="vol-interest">Interesse: @item.voluntario.InteresseAtuacao</div>
+                <a class="btn-ver-mais" href="@Url.Action("Detalhes", "Voluntario", new { id = item.voluntario.Id })">Ver mais</a>
+            </div>
         </div>
     }
 

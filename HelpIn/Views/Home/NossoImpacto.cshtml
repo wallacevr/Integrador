@@ -1,0 +1,164 @@
+@{
+    ViewData["Title"] = "Nosso Impacto - HelpIn";
+}
+
+<!-- AOS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    body {
+        background-color: #0D1117;
+        color: #FFFFFF;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    h1, h2 {
+        text-align: center;
+        color: #58A6FF;
+    }
+
+    .intro-text {
+        text-align: center;
+        font-size: 1.1rem;
+        max-width: 700px;
+        margin: 20px auto 40px;
+        color: #C9D1D9;
+    }
+
+    .impact-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+
+    .impact-card {
+        background-color: #1B2233;
+        border-radius: 16px;
+        padding: 30px 20px;
+        text-align: center;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    }
+
+    .impact-card i {
+        font-size: 2.5rem;
+        color: #58A6FF;
+        margin-bottom: 10px;
+    }
+
+    .impact-card h3 {
+        font-size: 1.4rem;
+        margin: 10px 0;
+    }
+
+    .impact-card p {
+        color: #C9D1D9;
+        font-size: 0.95rem;
+    }
+
+    .testimonial, .success-story {
+        background-color: #161B22;
+        border-left: 4px solid #58A6FF;
+        padding: 20px;
+        margin: 30px 0;
+        border-radius: 10px;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+    }
+
+    .testimonial p, .success-story p {
+        font-style: italic;
+        color: #C9D1D9;
+    }
+
+    .testimonial .author, .success-story .author {
+        margin-top: 10px;
+        font-weight: bold;
+        color: #8B949E;
+    }
+
+    .cta {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .cta-button {
+        background-color: #238636;
+        color: white;
+        padding: 14px 30px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+        background-color: #2ea043;
+    }
+</style>
+
+<div class="container">
+    <h1 data-aos="fade-down">Nosso Impacto</h1>
+    <p class="intro-text" data-aos="fade-up" data-aos-delay="100">
+        Na HelpIn, acreditamos que toda boa ação pode se multiplicar. Conheça os números e histórias que mostram como estamos conectando pessoas e transformando comunidades.
+    </p>
+
+    <!-- Indicadores -->
+    <div class="impact-grid">
+        <div class="impact-card" data-aos="zoom-in">
+            <i class="fas fa-hand-holding-heart"></i>
+            <h3>+4.300 Voluntários</h3>
+            <p>Registrados e atuantes em diferentes regiões do país.</p>
+        </div>
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="100">
+            <i class="fas fa-building"></i>
+            <h3>+210 ONGs</h3>
+            <p>Ativamente cadastradas na plataforma e conectando causas.</p>
+        </div>
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="200">
+            <i class="fas fa-bullhorn"></i>
+            <h3>+780 Projetos</h3>
+            <p>Divulgados com ajuda da HelpIn em todo o Brasil.</p>
+        </div>
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="300">
+            <i class="fas fa-comments"></i>
+            <h3>+6.500 Conexões</h3>
+            <p>Entre ONGs e voluntários, fortalecendo ações sociais.</p>
+        </div>
+    </div>
+
+    <!-- Depoimento -->
+    <div class="testimonial" data-aos="fade-up">
+        <p>“A HelpIn conectou nossa ONG a pessoas incríveis. Conseguimos voluntários para nosso projeto de alfabetização em menos de uma semana.”</p>
+        <div class="author">— Joana, ONG Ler é Viver</div>
+    </div>
+
+    <!-- História de sucesso -->
+    <div class="success-story" data-aos="fade-up" data-aos-delay="100">
+        <p>“Comecei ajudando como voluntário em uma ação de final de ano. Hoje sou coordenador de projetos sociais na ONG com quem me conectei pela HelpIn.”</p>
+        <div class="author">— Felipe, ex-voluntário e atual líder comunitário</div>
+    </div>
+
+    <!-- Chamada para ação -->
+    <div class="cta" data-aos="zoom-in" data-aos-delay="200">
+        <h2>Quer fazer parte dessa mudança?</h2>
+        <p>Cadastre-se como voluntário ou ONG e comece a transformar vidas agora mesmo.</p>
+        <a href="/cadastro"><button class="cta-button">Junte-se à HelpIn</button></a>
+    </div>
+</div>

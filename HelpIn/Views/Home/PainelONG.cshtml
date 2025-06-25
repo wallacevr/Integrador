@@ -1,0 +1,46 @@
+@{
+    ViewBag.Title = "Painel da ONG";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="container mx-auto px-4 py-10">
+    <h1 class="text-3xl font-bold text-center mb-8 text-primary">Painel da ONG</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Link para CRUD de Vagas -->
+        <a href="@Url.Action("Index", "Vagas")" class="block bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+            <h2 class="text-xl font-semibold text-primary mb-2">Gerenciar Vagas</h2>
+            <p class="text-gray-600">Crie, edite ou exclua vagas de voluntariado disponíveis.</p>
+        </a>
+
+        <!-- Link para Edição de Perfil -->
+        <a href="@Url.Action("EditarPerfil", "Ong")" class="block bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+            <h2 class="text-xl font-semibold text-primary mb-2">Editar Perfil</h2>
+            <p class="text-gray-600">Atualize as informações e dados de contato da sua ONG.</p>
+        </a>
+
+        <!-- Link para Lista de Voluntários Próximos -->
+        <a href="@Url.Action("Proximos", "Voluntarios")" class="block bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+            <h2 class="text-xl font-semibold text-primary mb-2">Voluntários Próximos</h2>
+            <p class="text-gray-600">Visualize voluntários próximos que possam ajudar sua causa.</p>
+        </a>
+
+        <!-- Sugestão: Gerenciar Eventos -->
+        <a href="@Url.Action("Index", "Eventos")" class="block bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+            <h2 class="text-xl font-semibold text-primary mb-2">Eventos da ONG</h2>
+            <p class="text-gray-600">Crie e gerencie eventos beneficentes e ações públicas.</p>
+        </a>
+
+        <!-- Sugestão: Mensagens e Contatos -->
+        <a href="@Url.Action("Mensagens", "Contato")" class="block bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+            <h2 class="text-xl font-semibold text-primary mb-2">Mensagens Recebidas</h2>
+            <p class="text-gray-600">Visualize mensagens de interessados, apoiadores e voluntários.</p>
+        </a>
+
+        <!-- Sugestão: Relatórios de Impacto -->
+        <a href="@Url.Action("Relatorios", "Impacto")" class="block bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+            <h2 class="text-xl font-semibold text-primary mb-2">Relatórios de Impacto</h2>
+            <p class="text-gray-600">Acompanhe os resultados, estatísticas e impactos gerados.</p>
+        </a>
+    </div>
+</section>
