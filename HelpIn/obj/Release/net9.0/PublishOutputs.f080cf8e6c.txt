@@ -1,0 +1,12 @@
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\publish\HelpIn.exe
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\publish\appsettings.Development.json
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\publish\appsettings.json
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\publish\HelpIn.dll
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\publish\HelpIn.runtimeconfig.json
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\publish\HelpIn.pdb
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\publish\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\publish\MySqlConnector.dll
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\publish\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\publish\HelpIn.deps.json

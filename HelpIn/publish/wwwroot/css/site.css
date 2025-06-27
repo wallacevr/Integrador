@@ -1,0 +1,219 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    flex: 1;
+}
+main {
+    flex: 1 0 auto; /* cresce e empurra o footer para baixo */
+}
+
+footer {
+    flex-shrink: 0;
+}
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+.hero {
+  background: url('/img/Banner1.png') center center/cover no-repeat;
+  color: white;
+  padding: 100px 20px;
+  position: relative;
+   width: 100%;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero .container-fluid {
+  position: relative;
+  z-index: 2;
+}
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  padding: 12px 30px;
+  font-size: 1rem;
+}
+
+.features {
+  background-color: #0f172a;
+  color: white;
+  padding: 60px 20px;
+}
+
+.feature-box {
+  margin-bottom: 30px;
+}
+
+.feature-box .emoji {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.cta {
+  background-color: #0f172a;
+  color: white;
+  padding: 60px 20px;
+}
+
+.cta .btn-outline-primary {
+  color: white;
+  border-color: #3b82f6;
+  background-color: transparent;
+}
+
+.cta .btn-outline-primary:hover {
+  background-color: #3b82f6;
+  color: white;
+}
+.container {
+  background-color: #0f172a !important;
+}
+body{
+   background-color: #0f172a !important;
+}
+header{
+   background-color: #0f172a !important;
+}
+
+   .stats-banner {
+        background: linear-gradient(90deg, #1e1e40, #5b2bc1);
+        color: white;
+        padding: 40px 20px;
+        border-radius: 50px;
+        margin: 60px auto;
+        max-width: 900px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        text-align: center;
+        margin-top: -60px; /* <--- isso sobe o bloco */
+         z-index: 10;
+        position: relative;
+    }
+
+    .stats-banner .stat h3 {
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+
+    .stats-banner .stat span {
+        font-size: 1rem;
+        color: #e0e0e0;
+    }
+    select.form-select option {
+        background-color: #0f172a !important;
+        color: #ffffff;
+    }
+
+    @media (max-width: 768px) {
+    .stats-banner {
+        flex-direction: row;          /* MANTÉM em linha */
+        flex-wrap: wrap;              /* Permite quebrar se necessário */
+        padding: 25px 10px;
+        gap: 20px;
+        border-radius: 30px;
+    }
+
+    .stats-banner .stat h3 {
+        font-size: 1.5rem;            /* Reduz número */
+    }
+
+    .stats-banner .stat span {
+        font-size: 0.8rem;            /* Reduz texto */
+    }
+}
+.section-highlight {
+  background-color: #04101c !important; /* Azul escuro da imagem */
+  border: 2px solid #ffffff20; /* Borda clara com transparência */
+  border-radius: 16px;
+  padding: 2rem;
+  color: #fff;
+}
+
+.section-highlight .section-image img {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.section-highlight .cta-button {
+  background-color: #ffd166;
+  color: #0f1b2d;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.section-highlight .cta-button:hover {
+  background-color: #ffb347;
+}
+.vol-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+}
+.vol-info {
+    flex-grow: 1;
+}
+
