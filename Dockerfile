@@ -1,28 +1,25 @@
-# Etapa 1: base de runtime
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+# Etapa 1: base de runtime com .NET 9
+FROM mcr.microsoft.com/dotnet/aspnet:9.0-preview AS base
 WORKDIR /app
 EXPOSE 80
 
-# Etapa 2: imagem de build
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+# Etapa 2: imagem de build com .NET 9 SDK
+FROM mcr.microsoft.com/dotnet/sdk:9.0-preview AS build
 WORKDIR /src
 
 # Copia todos os arquivos
 COPY . .
 
-# Restaura pacotes NuGet (melhor performance em cache de build)
+# Restaura pacotes NuGet
 RUN dotnet restore ./HelpIn/HelpIn.csproj
 
-# Publica o projeto em modo Release
+# Publica o projeto
 WORKDIR /src/HelpIn
 RUN dotnet publish -c Release -o /app/publish
 
-# Etapa 3: imagem final
+# Etapa final
 FROM base AS final
 WORKDIR /app
-
-# Copia os arquivos publicados da etapa anterior
 COPY --from=build /app/publish .
-
-# Comando para iniciar o app
 ENTRYPOINT ["dotnet", "HelpIn.dll"]
+
