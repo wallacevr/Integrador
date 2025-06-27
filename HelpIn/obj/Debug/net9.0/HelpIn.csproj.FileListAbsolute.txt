@@ -170,3 +170,9 @@ C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\ob
 C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\ref\HelpIn.dll
 c:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\compressed\01kx474fbg-d0xgafla22.gz
 c:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\obj\Debug\net9.0\compressed\qxvq1kz2le-8q1kujo3f1.gz
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\bin\Debug\net9.0\publish\web.config
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\bin\Debug\net9.0\publish\appsettings.Development.json
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\bin\Debug\net9.0\publish\appsettings.json
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\bin\Debug\net9.0\publish\HelpIn.deps.json
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\bin\Debug\net9.0\publish\HelpIn.runtimeconfig.json
+C:\Users\walla\OneDrive\Documentos\FATEC\DesenvolvimentoWEB\Integrador\HelpIn\bin\Debug\net9.0\publish\HelpIn.staticwebassets.endpoints.json
