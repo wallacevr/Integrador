@@ -21,7 +21,12 @@ namespace HelpIn.Models
         [Required]
         public string AreaAtuacao { get; set; }
 
+        
+        
+        public string Logradouro { get; set; }
+        public string Bairro { get; set; }
         public string Cidade { get; set; }
+        public string Estado { get; set; }
 
         public string Sobre { get; set; }
 
@@ -29,7 +34,7 @@ namespace HelpIn.Models
         public string? LogoUrl { get; set; }
         // ❌ Não salvo no banco (apenas no tempo de upload):
 
-        public string cep { get; set; }
+        public string Cep { get; set; }
         public double? Latitude { get; set; }
         public double? Longitude { get; set; }
         [NotMapped]

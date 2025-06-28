@@ -4,7 +4,7 @@ using HelpIn.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.AspNetCore.Identity;
 namespace HelpIn.Controllers
 {
     [Route("ong")]
@@ -30,6 +30,9 @@ namespace HelpIn.Controllers
         {
             if (ModelState.IsValid)
             {
+                    // Hash da senha
+                    var passwordHasher = new PasswordHasher<Ong>();
+                ong.Senha = passwordHasher.HashPassword(ong, ong.Senha);
                 // Upload da logo (opcional)
                 if (ong.Logo != null && ong.Logo.Length > 0)
                 {
@@ -78,7 +81,7 @@ namespace HelpIn.Controllers
             var ong = await _context.Ongs
                 .FirstOrDefaultAsync(o => o.Email == User.Identity.Name);
             Console.WriteLine(User.Identity.Name);
-            if (ong == null || string.IsNullOrEmpty(ong.cep))
+            if (ong == null || string.IsNullOrEmpty(ong.Cep))
             {
                 TempData["MensagemErro"] = "CEP da ONG não encontrado.";
                 return RedirectToAction("PainelOng");
@@ -91,7 +94,7 @@ namespace HelpIn.Controllers
             {
                 try
                 {
-                    (ongLat, ongLon) = await geoService.GetCoordinatesByCep(ong.cep);
+                    (ongLat, ongLon) = await geoService.GetCoordinatesByCep(ong.Cep);
                     ong.Latitude = ongLat;
                     ong.Longitude = ongLon;
                     _context.Ongs.Update(ong);

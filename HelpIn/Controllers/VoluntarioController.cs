@@ -123,7 +123,7 @@ public class VoluntarioController : Controller
             {
                 try
                 {
-                    (double lat, double lon) = await geoService.GetCoordinatesByCep(ong.cep);
+                    (double lat, double lon) = await geoService.GetCoordinatesByCep(ong.Cep);
                     ong.Latitude = lat;
                     ong.Longitude = lon;
                     _context.Ongs.Update(ong);
