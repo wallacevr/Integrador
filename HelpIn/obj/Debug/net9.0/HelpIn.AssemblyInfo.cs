@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HelpIn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+140d73f0a2e575c34e076ee90cb75d3ac5cd22bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32507dc99aa075c4468d71c9d3609915c673e465")]
 [assembly: System.Reflection.AssemblyProductAttribute("HelpIn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HelpIn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
