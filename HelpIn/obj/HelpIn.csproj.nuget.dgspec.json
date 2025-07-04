@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\HelpIn.csproj": {}
+    "C:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\HelpIn.csproj": {}
   },
   "projects": {
-    "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\HelpIn.csproj": {
+    "C:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\HelpIn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\HelpIn.csproj",
+        "projectUniqueName": "C:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\HelpIn.csproj",
         "projectName": "HelpIn",
-        "projectPath": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\HelpIn.csproj",
+        "projectPath": "C:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\HelpIn.csproj",
         "packagesPath": "C:\\Users\\walla\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\obj\\",
+        "outputPath": "C:\\Users\\walla\\OneDrive\\Documentos\\FATEC\\DesenvolvimentoWEB\\Integrador\\HelpIn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\walla\\AppData\\Roaming\\NuGet\\NuGet.Config"
