@@ -1278,6 +1278,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0a664f8c-09e5-497c-9712-43a6c060d9c8.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HelpIn</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HelpIn</BasePath>
+      <RelativePath>uploads/0a664f8c-09e5-497c-9712-43a6c060d9c8.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4knz3obf2o</Fingerprint>
+      <Integrity>/OqMn7WAYuuIT4/xaNfj0zD9XQmDDrjfDjbbP5ux1ZY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0a664f8c-09e5-497c-9712-43a6c060d9c8.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\13f3ca7c-09d6-44f4-865c-6bbce4d38730.png'))">
       <SourceType>Package</SourceType>
       <SourceId>HelpIn</SourceId>
@@ -1403,6 +1421,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9964b067-5b95-4c8a-a3e7-7c9f96b6d299.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aaa3cceb-7460-42e0-9aa1-cd3f15d4021a.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HelpIn</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HelpIn</BasePath>
+      <RelativePath>uploads/aaa3cceb-7460-42e0-9aa1-cd3f15d4021a.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4knz3obf2o</Fingerprint>
+      <Integrity>/OqMn7WAYuuIT4/xaNfj0zD9XQmDDrjfDjbbP5ux1ZY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aaa3cceb-7460-42e0-9aa1-cd3f15d4021a.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\bdc28ce4-961d-4ca6-a36d-00dc1d3bbb39.pdf'))">
       <SourceType>Package</SourceType>

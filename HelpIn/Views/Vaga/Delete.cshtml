@@ -4,7 +4,7 @@
 
 <p>Tem certeza que deseja excluir a vaga: <strong>@Model.Titulo</strong>?</p>
 
-<form asp-action="DeleteConfirmed" method="post">
+<form asp-controller="Vaga" asp-action="DeleteConfirmed" asp-route-id="@Model.Id" method="post">
     <input type="hidden" asp-for="Id" />
     <button type="submit" class="btn btn-danger">Confirmar Exclusão</button>
     <a class="btn btn-secondary" href="@Url.Action("Index", "Vaga")">Cancelar</a>
